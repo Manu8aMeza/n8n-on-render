@@ -10,4 +10,5 @@ ENV N8N_PROTOCOL=https
 
 EXPOSE 5678
 
+ENTRYPOINT ["tini", "--"]
 CMD ["n8n"]
