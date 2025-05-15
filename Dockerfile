@@ -10,4 +10,4 @@ ENV N8N_PROTOCOL=https
 
 EXPOSE 5678
 
-CMD ["./packages/cli/bin/n8n"]
+CMD ["n8n"]
