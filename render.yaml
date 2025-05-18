@@ -7,3 +7,8 @@ services:
     branch: main
     autoDeploy: false
     dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DB_TYPE
+        value: postgresdb
+      - key: DB_POSTGRESDB_CONNECTION_URL
+        value: ${DB_POSTGRESDB_CONNECTION_URL}
