@@ -9,4 +9,6 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: DB_TYPE
-        value: postgresdb
+        value: postgres
+      - key: DB_POSTGRESDB_CONNECTION_URL
+        value: postgresql://n8n_db_wonb_user:Qj5MAbEfw8YEOngRQOGULK1bc5xJWcki@dpg-d0kfsl3uibrs739grl50-a.oregon-postgres.render.com/n8n_db_wonb
